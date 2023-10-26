@@ -58,7 +58,7 @@ if (AccountInteraction($_SESSION['UID'], "Get", "others", "loginstreak") == NULL
 
 <head>
   <?php if ($prod) {
-    echo ("<script src=\"https://cdn.jsdelivr.net/gh/strawmelonjuices-logger-diary/online@{$last_commit_ID}/public/js/early.min.js\"></script>");
+    echo ("<script src=\"https://cdn.jsdelivr.net/gh/strawmelonjuice/logger-diary-online@{$last_commit_ID}/public/js/early.min.js\"></script>");
   } else {
     echo "<script src=\"/js/early.js\"></script>";
   } ?>
@@ -101,7 +101,7 @@ if (AccountInteraction($_SESSION['UID'], "Get", "others", "loginstreak") == NULL
   <script src="https://cdn.jsdelivr.net/npm/@picmo/popup-picker@latest/dist/umd/index.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@picmo/renderer-twemoji@latest/dist/umd/index.js"></script>
   <?php if ($prod) {
-    echo ("<script src=\"https://cdn.jsdelivr.net/gh/strawmelonjuices-logger-diary/online@{$last_commit_ID}/public/js/emoji-drawer-2.min.js\"></script>");
+    echo ("<script src=\"https://cdn.jsdelivr.net/gh/strawmelonjuice/logger-diary-online@{$last_commit_ID}/public/js/emoji-drawer-2.min.js\"></script>");
   } else {
     echo "<script src=\"/js/emoji-drawer-2.js\"></script>";
   } ?>
@@ -248,7 +248,7 @@ if (AccountInteraction($_SESSION['UID'], "Get", "others", "loginstreak") == NULL
   ?>
   <?php
   if ($prod) {
-    echo ("<script src=\"https://cdn.jsdelivr.net/combine/gh/strawmelonjuices-logger-diary/online@{$last_commit_ID}/public/js/site.min.js,gh/strawmelonjuices-logger-diary/online@{$last_commit_ID}/public/js/theme.min.js,npm/hl-img@{$_ENV['HLimgVersion']}/hl-img.min.js\"></script>");
+    echo ("<script src=\"https://cdn.jsdelivr.net/combine/gh/strawmelonjuice/logger-diary-online@{$last_commit_ID}/public/js/site.min.js,gh/strawmelonjuice/logger-diary-online@{$last_commit_ID}/public/js/theme.min.js,npm/hl-img@{$_ENV['HLimgVersion']}/hl-img.min.js\"></script>");
   } else {
     echo <<<YEAG
   <script src="/js/site.js"></script>

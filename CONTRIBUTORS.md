@@ -1,4 +1,4 @@
-_Want to contribute?_ Please do! On <a href="https://github.com/strawmelonjuices-logger-diary/online/" target="_blank">GitHub</a>.
+_Want to contribute?_ Please do! On <a href="https://github.com/strawmelonjuice/logger-diary-online/" target="_blank">GitHub</a>.
 
 > <a href="https://logger-diary.strawmelonjuice.com/licence/">This project is licensed under SOwSOSL 1.0</a>!
 ## Code contributions

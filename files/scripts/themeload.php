@@ -2,7 +2,7 @@
 use Symfony\Component\Yaml\Yaml;
 $fontscale = 10.1;
 if ($prod) {
-  $basecss = "https://cdn.jsdelivr.net/gh/strawmelonjuices-logger-diary/online@{$last_commit_ID}/public/css";
+  $basecss = "https://cdn.jsdelivr.net/gh/strawmelonjuice/logger-diary-online@{$last_commit_ID}/public/css";
   $cssext = ".min.css";
 } else {
   $basecss = "/?getcss=";

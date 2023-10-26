@@ -26,7 +26,7 @@ if (!(AccountInteraction($_SESSION['UID'],"Get","others","tour","")) == "true") 
 
 <head>
       <?php if ($prod) {
-  echo ("<script src=\"https://cdn.jsdelivr.net/gh/strawmelonjuices-logger-diary/online@{$last_commit_ID}/public/js/early.min.js\"></script>");
+  echo ("<script src=\"https://cdn.jsdelivr.net/gh/strawmelonjuice/logger-diary-online@{$last_commit_ID}/public/js/early.min.js\"></script>");
 } else {
   echo "<script src=\"/js/early.js\"></script>";
 }?>
@@ -165,7 +165,7 @@ if  ($theme == 'framework') {
 ?>
 <?php
 if ($prod) {
-  echo ("<script src=\"https://cdn.jsdelivr.net/combine/gh/strawmelonjuices-logger-diary/online@{$last_commit_ID}/public/js/site.min.js,gh/strawmelonjuices-logger-diary/online@{$last_commit_ID}/public/js/theme.min.js,npm/hl-img@{$_ENV['HLimgVersion']}/hl-img.min.js\"></script>");
+  echo ("<script src=\"https://cdn.jsdelivr.net/combine/gh/strawmelonjuice/logger-diary-online@{$last_commit_ID}/public/js/site.min.js,gh/strawmelonjuice/logger-diary-online@{$last_commit_ID}/public/js/theme.min.js,npm/hl-img@{$_ENV['HLimgVersion']}/hl-img.min.js\"></script>");
 } else {
   echo <<<YEAG
   <script src="/js/site.js"></script>

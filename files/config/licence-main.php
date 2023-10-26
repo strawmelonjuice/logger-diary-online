@@ -1,5 +1,5 @@
 <div class="AddEntryForm">
-            <a href="https://github.com/strawmelonjuices-logger-diary/online/blob/main/Licence.md" target="_blank"><h2><span class="emojis">📜</span>&nbsp;<text class="translatable" data-translation_id="78"></text></h2></a>
+            <a href="https://github.com/strawmelonjuice/logger-diary-online/blob/main/Licence.md" target="_blank"><h2><span class="emojis">📜</span>&nbsp;<text class="translatable" data-translation_id="78"></text></h2></a>
         <p align="center"><big><text class="translatable" data-translation_id="77">For</text> Logger, <i><?php echo $_SESSION['LANG'][2] ?></i>!</big></p>
 </div>
         <div class="readback settingsmain">
