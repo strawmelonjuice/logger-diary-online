@@ -1,0 +1,85 @@
+/* @import url('../main.min.css'); */
+
+@import url('https://strawmelonjuice.com/gfonts.php/https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap');
+@import url('https://strawmelonjuice.com/gfonts.php/https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://strawmelonjuice.com/gfonts.php/https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
+@import url('https://strawmelonjuice.com/gfonts.php/https://fonts.googleapis.com/css2?family=Noto+Color+Emoji&display=swap');@import url('https://strawmelonjuice.com/gfonts.php/https://fonts.googleapis.com/css2?family=Noto+Emoji&display=swap');
+
+#framework-add-btn {
+    background: #a7cec5;
+    color: white;
+}
+
+
+body {
+    background-color: #cff8ff;
+    color: #204c4c;
+}
+
+
+div.headinglogo {
+    border-color: #55a2fa;
+    background-color: #55a2fa;
+}
+
+
+.emoji-drawer {
+    background-color: #d1cdcdd0;
+    border: 5px solid #000;
+}
+
+
+.emoji:hover {
+    background-color: #9e9e9e6e;
+}
+
+h5.emoji-drawer {
+    color: black;
+}
+
+div.readback,
+div.AddEntryForm {
+    background-color: #cdffd4;
+    border-color: #55a2fa;
+    color: #15440b;
+}
+
+
+#theLoggerNav {
+    background-color: #55a2fa;
+}
+
+#theLoggerNav a {
+    color: #f2f2f2;
+}
+
+#theLoggerNav a:hover:not(#gambiwashere) {
+    background-color: #cdffd4;
+    color: black;
+}
+
+#theLoggerNav a.active:not(#gambiwashere) {
+    background-color: #04AA6D;
+    color: white;
+}
+
+a#gambiwashere {
+    background-color: #55a2fa;
+    color: #15440b;
+}
+
+p#LDDStreakNotif {
+    border-color: #55a2fa;
+    background-color: #55a2fa;
+}
+
+
+div.focusmode-salutations-disabled button {
+    border-color: #55a2fa;
+    background-color: #55a2fa;
+}
+
+div.emoji-drawer-emojis div,
+h5.emojis {
+    color: #080002;
+}

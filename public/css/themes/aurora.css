@@ -1,0 +1,55 @@
+@import url('../main.min.css');
+/* Styles for the Aurora stylesheet */
+@import url('https://strawmelonjuice.com/gfonts.php/https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@500&display=swap');
+body {
+        background-color: #171723;
+        background-image: linear-gradient(135deg, #000000 , #71fdb0, #9a9292, #6828e7, #000000);
+        color: #984c79;
+        font-family: 'Edu VIC WA NT Beginner', cursive;
+}
+div.AddEntryForm, div.readback {
+        background-color: #171723;
+        border-color: #1b199f;
+}
+#readbacktable {
+        background-color: #34e767;
+}
+#readbacktable th {
+        background-color: #124151;
+        color:#c9e1d9;
+}
+#readbacktable td {
+        background-image: linear-gradient(to bottom, #34e767, #118733);
+        color: #000000;
+}
+.sidenav a:hover {
+        color: #ff0000;
+}
+.sidenav a {
+        color: #1b199f;
+}
+.sidenav {
+        background-color: #f0f0eb;
+}
+.entry-text {
+        color:#5f9ea0;
+}
+select {
+        background-image: linear-gradient(135deg, #ae71fd 10%, #5813e2 100%);
+        color: #fff8dc;
+}
+button, .button-like {
+        background-image: linear-gradient(135deg, #ae71fd 10%, #5813e2 100%);
+        color: #fff8dc;
+}
+.textbox {
+        border-color: #5813e2;
+}
+#visual-theme-selector-aurora {
+        border-color: #00fdfd;
+        filter: drop-shadow(0 0 0.75rem #73db84);
+        z-index: 2;
+}
+.bymarbanner {
+        color: #6e8251;
+}

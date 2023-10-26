@@ -1,0 +1,8 @@
+{
+  "attachmentFolderPath": "./",
+  "useMarkdownLinks": true,
+  "userIgnoreFilters": [
+    "src/",
+    "target/"
+  ]
+}

@@ -1,0 +1,56 @@
+@import url('../main.min.css');
+/* Styles for the journal antique stylesheet */
+@import url('https://strawmelonjuice.com/gfonts.php/https://fonts.googleapis.com/css2?family=Glass+Antiqua&display=swap');
+body {
+        background-image: url("https://logger-diary.strawmelonjuice.com/img/journal-bg.gif");
+        background-repeat: repeat;
+        background-size: cover;
+        color: #332106;
+        font-family: 'Glass Antiqua', cursive;
+}
+div.AddEntryForm, div.readback {
+        background-color: #ffa60066;
+        border-color: #f7bd768d;
+}
+#readbacktable {
+        background-color: #fff8dc00;
+}
+#readbacktable th {
+        background-color: #5c5947b1;
+}
+#readbacktable td {
+        background-color: #aa94049e;
+        color: #580d0c;
+        
+}
+.sidenav a:hover {
+        color: #ff00009a;
+}
+.sidenav a {
+        color: #5f4f06;
+}
+.sidenav {
+        background-color: #ffff73;
+}
+.entry-text {
+        color:#5f9ea0;
+}
+select {
+        background-color: #be7a1b78;
+        color: #232355;
+}
+button, .button-like {
+        background-image: linear-gradient(135deg, #f5b01a58 10%, #8d5c1348 100%);
+        color: #04048c;
+}
+.textbox {
+        border-color: #8d5c1390;
+}
+#visual-theme-selector-journal {
+        border-color: #eb7406;
+        filter: drop-shadow(0 0 0.75rem #c7f10a);
+        z-index: 2;
+}
+.bymarbanner {
+        color: #4050e0;
+}

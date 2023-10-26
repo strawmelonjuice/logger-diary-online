@@ -1,0 +1,101 @@
+@import url('../main.min.css');
+@import url('https://strawmelonjuice.com/gfonts.php/https://fonts.googleapis.com/css2?family=Noto+Color+Emoji&display=swap');
+/* Styles for the Pynk Pulse stylesheet */
+body {
+        background-color: #CEA7B0;
+        color: #6db1a1;
+}
+
+div.AddEntryForm,
+div.readback {
+        background-color: #E5C0C0;
+        border-color: #C0E5C5;
+        color: #15440b;
+}
+
+#readbacktable {
+        background-color: #fff8dc;
+}
+
+#readbacktable th {
+        background-color: #BAA7CE;
+        color: #360005;
+
+}
+
+#readbacktable tr:nth-child(even) {
+        background-color: #CEAFA7;
+        color: #7c8fac;
+}
+
+#readbacktable tr:nth-child(odd) {
+        background-color: #ABCEA7;
+        color: #9278ad;
+}
+
+.sidenav a:hover {
+        color: #4000ff;
+}
+
+.sidenav a {
+        color: #e029b9;
+}
+
+.sidenav {
+        background-color: #000;
+}
+
+.entry-text {
+        color: #5f9ea0;
+}
+
+select {
+        background-color: #be7a1b;
+        color: #232355;
+}
+
+button,
+.button-like {
+        background-image: linear-gradient(135deg, #e74d00 10%, #aa9404 100%);
+        color: #04048c;
+}
+
+.textbox {
+        border-color: #e74d00;
+}
+
+#visual-theme-selector-taupe {
+        border-color: #d7ffff;
+        filter: drop-shadow(0 0 0.75rem #add8e6);
+        z-index: 2;
+}
+
+.bymarbanner {
+        color: #40e0d0;
+}
+
+button#ViewNavButton {
+        background-image: linear-gradient(135deg, #e74d00 10%, #3bd66f 100%);
+        color: #04048c;
+}
+
+.emoji,
+.emojis {
+        font-family: 'Noto Color Emoji', sans-serif;
+}
+
+#usernamehighlighted {
+        color: #c5d6d6;
+}
+
+code,
+.invalid-feedback {
+        color: #35040e;
+}
+
+code {
+        background-color: #f1f1f1;
+}
+div.emoji-drawer-emojis div, h5.emojis, #focusmodealert {
+        color: #080002;
+}

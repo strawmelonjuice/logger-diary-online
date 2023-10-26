@@ -1,0 +1,499 @@
+/* Styles loaded for the main stylesheet. These won't change on theme change. */
+/* @import url('https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css'); */
+@import url('https://strawmelonjuice.com/gfonts.php/https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap');
+@import url('https://strawmelonjuice.com/gfonts.php/https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://strawmelonjuice.com/gfonts.php/https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
+@import url('https://strawmelonjuice.com/gfonts.php/https://fonts.googleapis.com/css2?family=Noto+Emoji&display=swap');
+@import url('https://strawmelonjuice.com/gfonts.php/https://fonts.googleapis.com/css2?family=Noto+Color+Emoji&display=swap');
+
+.emoji-drawer-2 {
+    --accent-color: var(--theme-accent-color) !important;
+    --border-color: var(--theme-accent-color) !important;
+    /* position: fixed !important; */
+    /* width: 60vw; */
+    /* margin-left: 20vw;margin-right: 20vw; */
+}
+
+@media (orientation: portrait),
+(max-width: 800px) {
+    :root {
+        /* I'm not using this but keep it in */
+        --max-size-scaling: 50;
+    }
+}
+
+:root {
+    font-size: 14px;
+}
+
+.picmo__emojiButton {
+    --emoji-font: 'Noto Color Emoji',
+        sans-serif !important;
+
+}
+
+.emoji-drawer-2 .picmo__emojiCategory .picmo__categoryName {
+    font-size: 0.7em !important;
+}
+
+body {
+    margin: 0;
+    padding: 1em;
+    font-family: 'Ubuntu', sans-serif;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: font-size cubic-bezier(.77, 0, .18, 1) 0.8s;
+    bottom: 0;
+    right: 0;
+    overflow: auto;
+    height: 100%;
+}
+
+h1 {
+
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
+}
+
+h5 {
+    text-align: center;
+}
+
+code,
+.invalid-feedback {
+    font-family: 'Ubuntu Mono', monospace;
+    color: crimson;
+}
+
+code {
+    background-color: #f1f1f1;
+    padding: 2px;
+    font-size: 105%;
+    border-radius: 5px;
+}
+
+/* div.AddEntryForm {
+    align-items: center;
+    align-content: center;
+    width: 95%;
+    align-self: center;
+    border: 10px solid;
+    border-radius: 20px;
+    margin: 20px;
+    padding: 0px;
+} */
+
+div.readback,
+div.AddEntryForm {
+    border: 10px solid;
+    border-radius: 15px;
+    margin-top: 70px;
+    overflow-x: auto;
+    overflow-y: auto;
+    padding: 0px;
+    width: 90%;
+    min-width: 280px;
+    margin-left: 4%;
+    margin-right: 4%;
+    max-width: 700px;
+    align-self: center;
+    align-items: center;
+    /* margin: 20px; */
+}
+
+.AddEntryForm input {
+    display: table-column-group;
+    align-self: center;
+    align-items: center;
+    /* margin: 2px; */
+}
+
+.AddEntryForm #feelemojibutton {
+    display: table-column-group;
+    align-self: center;
+    align-items: center;
+    size: 20px;
+    /* margin: 2px; */
+    width: 40px;
+    text-size-adjust: auto;
+    height: 40px;
+    text-align: center;
+    padding: 0px;
+    font-size: 100%;
+}
+
+.AddEntryForm input[type=submit],#hidefocusmodealertbtn {
+    width: 20%;
+    /* margin: 2px; */
+    display: inline-block;
+    text-align: center;
+    height: max-content;
+    height: 40px;
+    text-size-adjust: auto;
+    size: 9px;
+}
+
+#baebadoopiiepoopiee {
+    align-items: center;
+    display: flex
+}
+
+.textbox {
+    border-radius: 3px;
+    border: 7px solid;
+    display: inline-flexbox;
+    /* padding: 7px; 
+}
+.AddEntryForm .textbox { */
+    width: 65%;
+    height: 36px;
+    border: 2.5px solid;
+    padding: 0px;
+    font-family: inherit;
+}
+
+.AddEntryForm textarea.textbox {
+    min-width: 65%;
+    font-size: 85%;
+}
+
+.AddEntryForm input.textbox {
+    font-size: 115%;
+}
+
+.infofooter {
+    bottom: 0px;
+    position: relative;
+    margin-top: auto;
+}
+
+#gambiwashere {
+    display: none
+}
+
+#readbacktable {
+    border-collapse: collapse;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+}
+
+#readbacktable td,
+#readbacktable th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+#readbacktable td :not(td.emojis) {
+    font-size: 100%;
+    overflow-wrap: break-word !important;
+}
+
+#readbacktable td pre,
+#readbacktable td pre code {
+    /* Hell-bent on keeping these things from breaking my tables */
+    white-space: pre-wrap;
+    white-space: -moz-pre-wrap;
+    white-space: -pre-wrap;
+    white-space: -o-pre-wrap;
+    word-wrap: break-word;
+    display: inline;
+    overflow: auto;
+    font-size: 105%;
+    overflow-wrap: break-word !important;
+    padding: 0px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    display: block;
+    white-space: pre-wrap;
+    white-space: -moz-pre-wrap;
+    white-space: -pre-wrap;
+    white-space: -o-pre-wrap;
+    word-wrap: break-word;
+    margin: 0px;
+    width: 26em;
+    overflow-x: auto;
+}
+
+#readbacktable th {
+    font-size: 130%;
+}
+
+#readbacktable th#ReadBackTH_Feel {
+    font-size: 100%;
+}
+
+td span.emojis,
+td.emojis {
+    font-size: 2.5em;
+}
+
+ul {
+    list-style-type: square;
+    text-align: left;
+}
+
+#readbacktable th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 4px;
+    padding-right: 4px;
+    text-align: left;
+    color: white;
+}
+
+#ReadBackTH_Feel {
+    max-width: 30px;
+}
+
+#ReadBackTH_Date {
+    width: 20%;
+}
+
+#ReadBackTH_Text {
+    width: 70%;
+}
+
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 100%;
+    display: block;
+    transition: 0.3s;
+}
+
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 257%;
+    margin-left: 50px;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 16px;
+    align-self: center;
+    text-align: center;
+    display: flexbox;
+    max-width: 900px;
+    width: 70%;
+    z-index: 20;
+    /* position: absolute; */
+    margin-left: auto;
+    margin-right: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+
+
+#main all {
+    z-index: 20;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+
+    .sidenav a {
+        font-size: 129%;
+    }
+}
+
+
+div.settingsmain {
+    padding-bottom: 20px;
+}
+
+
+
+
+button,
+.button-like,
+.buttonlike {
+    border: 0;
+    padding: 12px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 120%;
+    position: relative;
+    top: 0;
+    transition: all .2s ease;
+}
+
+select {
+    padding: 12px;
+    border-radius: 3px;
+    cursor: pointer;
+    position: relative;
+    transition: all .2s ease;
+}
+
+select:hover {
+    top: 2px;
+}
+
+#usernamehighlighted {
+    color: #f9a7b6;
+}
+
+.LoginForm {
+    display: block;
+    width: 30%;
+    box-shadow: #766045 8px 2px;
+    border-radius: 25px;
+    border: 0px;
+    margin-bottom: 20px;
+    text-size-adjust: auto;
+    padding: 5px;
+    text-align: center;
+}
+
+.LoginButton {
+    background-color: #97e1ca;
+}
+
+.hidden {
+    opacity: 0;
+    display: none;
+}
+
+.emoji,
+.emojis {
+    font-family: 'Noto Color Emoji', sans-serif;
+}
+
+.timefonted {
+    font-family: 'Orbitron',
+        sans-serif;
+    font-size: 80%;
+}
+
+input#writedown {
+    font-size: 95%;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+h5.emoji-drawer {
+    color: #c3b7b7;
+    width: 100%;
+    text-align: center;
+}
+
+#focusmodealert {
+    font-size: 57.14%;
+    border-bottom: 1px solid;
+    border-radius: 40px;
+    margin: 0%;
+    transition: height 0.5s cubic-bezier(1, 0, 0, 1) 3s;
+    overflow: hidden;
+    background-color: inherit;
+    filter: invert(1);
+}
+
+#focusmodealert input {
+    border: 0;
+    padding: 2px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 1em;
+    position: relative;
+    top: 0;
+    transition: all .2s ease;
+}
+
+div.headinglogo {
+    text-align: center;
+    float: right;
+}
+
+img.headinglogo {
+    max-width: 15%;
+    max-width: 110px;
+    text-align: center;
+    align-content: center;
+    align-self: center;
+    position: sticky;
+    display: inline-block;
+}
+
+@media (orientation: portrait),
+(max-width: 800px) {
+    .headinglogo {
+        display: none;
+    }
+
+    #main {
+        padding: 0px;
+        text-align: center;
+        width: 100vw;
+        margin-left: -15px;
+        margin-right: auto;
+    }
+
+    div.readback,
+    div.AddEntryForm {
+        border: 10px solid;
+        border-top-color: currentcolor;
+        border-right-color: currentcolor;
+        border-bottom-color: currentcolor;
+        border-left-color: currentcolor;
+        border-radius: 15px;
+        margin-top: 70px;
+        overflow-x: auto;
+        overflow-y: auto;
+        padding: 0px;
+        min-width: 280px;
+        max-width: 700px;
+    }
+}
+
+#ViewNavButtonSpan {
+    position: fixed;
+    z-index: 90;
+    top: 13px;
+    left: 13px;
+}
+
+#ViewNavButton {
+    z-index: 90;
+}
+
+select.button-like {
+    font-size: 90%;
+    margin-bottom: 20px;
+}

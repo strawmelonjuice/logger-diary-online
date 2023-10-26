@@ -1,0 +1,37 @@
+@import url('../main.min.css');
+/* Styles for the Plain Light stylesheet */
+@import url('https://strawmelonjuice.com/gfonts.php/https://fonts.googleapis.com/css2?family=Noto+Color+Emoji&display=swap');
+body {
+        background-color: #ffffff;
+        color: #000000;
+}
+div.AddEntryForm,
+div.readback {
+        border-color: #00000020;
+}
+#visual-theme-selector-plain {
+        border-color: #000000;
+        filter: drop-shadow(0 0 0.75rem #00000041);
+        z-index: 2;
+}
+.bymarbanner {
+        color: #40e0d0;
+}
+.emoji, .emojis {
+        font-family: 'Noto Color Emoji', sans-serif;
+}
+.sidenav {
+        background-color: #0000001e;
+}
+#visual-theme-selector-plain:hover {
+        background-color: #FFFFFF;
+        color: #000000;
+}
+
+#visual-theme-selector-plain:not(:hover) {
+        background-color: #000000;
+        color: #FFFFFF;
+}
+#readbacktable th {
+        background-color: #0404047b;
+}

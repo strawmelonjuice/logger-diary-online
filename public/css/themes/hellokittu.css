@@ -1,0 +1,56 @@
+@import url('../main.min.css');
+/* Styles for the Hello Kitty stylesheet */
+:root {
+        font-size: 10px;
+}
+body {
+        background-color: #ffc1cc;
+        color: #000;
+        font-family: monospace;
+}
+div.AddEntryForm, div.readback {
+        background-color: #eedc14;
+        border-color: #FFEBC1;
+}
+#readbacktable {
+        background-color: #eedc14;
+}
+#readbacktable th {
+        background-color: #da88fd;
+        color: #eedc14;
+}
+#readbacktable td {
+        background-color: #FFF;
+}
+.sidenav a:hover {
+        color: #E6002E;
+}
+.sidenav a {
+        color: #000;
+}
+.sidenav {
+        background-color: #fff;
+}
+.entry-text {
+        color:#000000;
+}
+select  {
+         background-color: #E6002E;
+         color: #04048c;
+ }
+button, .button-like {
+        background-color: #E6002E;
+        color: #04048c;
+}
+.textbox {
+        border-color: #E6002E;
+}
+#visual-theme-selector-hellokitten {
+        border: solid 5px;
+        border-color: #00fdfd;
+        filter: drop-shadow(0 0 3.75rem #f096e6);
+        z-index: 2;
+}
+.bymarbanner {
+        color: #E6002E;
+}

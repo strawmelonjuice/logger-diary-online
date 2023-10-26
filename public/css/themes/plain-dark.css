@@ -1,0 +1,28 @@
+@import url('../main.min.css');
+@import url('https://strawmelonjuice.com/gfonts.php/https://fonts.googleapis.com/css2?family=Noto+Color+Emoji&display=swap');
+/* Styles for the Plain Dark stylesheet */
+body {
+        background-color: #000000;
+        color: #ffffff;
+}
+div.AddEntryForm,
+div.readback {
+        border-color: #ffffff27;
+}
+#visual-theme-selector-plain {
+        border-color: #ffffff;
+        filter: drop-shadow(0 0 0.75rem #ffffff41);
+        z-index: 2;
+}
+.bymarbanner {
+        color: #40e0d0;
+}
+.emoji, .emojis {
+        font-family: 'Noto Color Emoji', sans-serif;
+}
+.sidenav {
+        background-color: #ffffff1e;
+}
+#readbacktable tr:nth-child(even) {
+        background-color: #424242;
+}

@@ -1,0 +1,9 @@
+{
+    "files.autoSave": "afterDelay",
+    "files.exclude": {
+        "docs/**": true,
+        "notes/**": true,
+        ".obsidian/**": true,
+        ".vscode/**": true
+    }
+}

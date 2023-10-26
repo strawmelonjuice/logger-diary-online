@@ -1,0 +1,53 @@
+@import url('../main.min.css');
+/* Styles for the Rouge stylesheet */
+body {
+        background-color: #242424;
+        color: #D7707E;
+}
+a {
+        color:#5f9ea0;
+}
+div.AddEntryForm, div.readback {
+        background-color: #210c07;
+        border-color: #b2afa3;
+}
+#readbacktable {
+        background-color: #333230;
+}
+#readbacktable th {
+        background-color: #2d0808;
+}
+#readbacktable td {
+        background-color: #464545;
+        color: #b64444;
+}
+.sidenav a:hover {
+        color: #ff0000;
+}
+.sidenav a {
+        color: #e03e3e;
+}
+.sidenav {
+        background-color: #000000;
+}
+.entry-text {
+        color:#5f9ea0;
+}
+button, .button-like {
+        background-image: linear-gradient(135deg, #312846 10%, #375e55 100%);
+        color: #cdcddf;
+}
+.textbox {
+        border-color: #375e55;
+}
+#visual-theme-selector-rouge {
+        border-color: #d7ffff;
+        filter: drop-shadow(0 0 0.75rem #add8e6);
+        z-index: 2;
+}
+.emoji, .emojis {
+        color: #5f9ea0;
+}
+.emoji-drawer {
+        background-color: #312846;
+}
