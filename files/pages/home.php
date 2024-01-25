@@ -152,6 +152,11 @@ if (AccountInteraction($_SESSION['UID'], "Get", "others", "loginstreak") == NULL
             <?php echo htmlspecialchars($_SESSION["username"]); ?>
           </b>
           <?php echo DiaryDot() . "</h1>"; ?>
+<div style="color: red; background-color: black;"><p style="font-size: 30px">Warning:</p>
+<p style="font-size: 19px">Logger Diary Online will end support in Februari.</p>
+  <p>To keep your diary, download the JSON code from <a href="https://logger-diary.strawmelonjuice.com/home//?api=entries-json">here</a> and wait for the rollout of the Logger-Diary App to be released, then import it there.</p>
+  <p>More instructions may follow on @strawmelonjuice social media accounts.</p>
+</div>
           <?php
           if (!(AccountInteraction($_SESSION["UID"], "Get", "settings", "DisableDailyStreaks", "") == "0")) {
             echo '<p align="center" id="LDDStreakNotif">';
